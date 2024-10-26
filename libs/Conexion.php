@@ -1,7 +1,7 @@
 <?php
 class Conexion
 {
-  protected $conn;
+  public $conn;
 
   function __construct()
   {

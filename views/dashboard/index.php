@@ -4,5 +4,5 @@
         <h1>Dashboard</h1>
     </div>
 </div>
-
+<script src="<?php echo constant('URL')?>public/js/dashboard.js"></script>
 <?php require 'views/footer.php';?>

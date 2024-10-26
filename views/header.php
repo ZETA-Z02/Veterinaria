@@ -25,6 +25,8 @@
   <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;400&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@200;400&display=swap" rel="stylesheet">
   <!-- Pre-conexion fonts y fuentes -->
+  <!-- jquery -->
+  <script src="<?php echo constant('URL'); ?>public/js/core/jquery.min.js"></script>
 </head>
 
 <body>
@@ -37,28 +39,23 @@
         <div class="cell">
           <ul class="vertical menu">
             <li>
-              <a href="#">
-                Mi Vista 1
+              <a href="<?php echo constant('URL');?>dashboard">
+                Dashboard
               </a>
             </li>
             <li>
-              <a href="#">
-                Mi Vista 2
+              <a href="<?php echo constant('URL');?>citas">
+                Agenda
               </a>
             </li>
             <li>
-              <a href="#">
-                Mi Vista 3
+              <a href="<?php echo constant('URL');?>clientes">
+                Informacion
               </a>
             </li>
             <li>
-              <a href="#">
-                Mi Vista 4
-              </a>
-            </li>
-            <li>
-              <a href="#">
-                Mi Vista 5
+              <a href="<?php echo constant('URL');?>personal">
+                Personal
               </a>
             </li>
           </ul>

@@ -1,11 +1,11 @@
 <?php
 
-define('URL', 'http://localhost/mvcPhp/');
+define('URL', 'http://localhost/veterinaria/');
 
 define('COMPANY', 'Katari A&C');
 define('HOST', 'localhost');
 define('USER', 'katari');
-define('DB', 'colegio');
+define('DB', 'veterinaria');
 define('PASSWORD', 'katari');
 define('CHATSET', 'utf8mb4');
 

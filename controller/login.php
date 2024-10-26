@@ -13,12 +13,12 @@ class Login extends Controller
 		$this->view->Render('login/index');
 	}
 	public function user(){
-		$username = $_POST['usuario'];
-		$password = $_POST['password'];
+		$username = strtolower($_POST['usuario']);
+		$password = strtolower($_POST['password']);
 		$data = $this->model->User($username,$password);
-		if($data['username']==$username && $data['passwd']==$password){
+		if($data['usuario']==$username && $data['password']==$password){
 			$_SESSION['katari'] = 'ingreso';
-			header("Location:".constant('URL')."dashboard/render");
+			header("Location:".constant('URL')."dashboard");
 		}else{
 			$this->render();
 		}
