@@ -4,10 +4,8 @@
     <div class="grid-x align-center">
         <h1>Citas</h1>
     </div>
-    <div class="grid-x margin-3">
-        <div class="cell callout">
-            <div class="calendar" id="calendar"></div>
-        </div>
+    <div class="cell">
+        <div class="calendar" id="calendar"></div>
     </div>
 </div>
 
