@@ -23,4 +23,9 @@ class Login extends Controller
 			$this->render();
 		}
 	}
+	public function logout(){
+		session_destroy();
+		$_SESSION['katari'] = '';
+		header("Location:".constant('URL'));
+	}
 }

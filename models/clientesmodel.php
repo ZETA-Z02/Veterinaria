@@ -13,4 +13,9 @@ class ClientesModel extends Model{
         $data = $this->conn->ConsultaArray($sql);
         return $data;
     }
+    public function GetMascotas($id){
+        $sql = "SELECT * FROM mascota WHERE idcliente = '$id';";
+        $data = $this->conn->ConsultaCon($sql);
+        return $data;
+    }
 }

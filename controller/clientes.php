@@ -22,4 +22,16 @@ class Clientes extends Controller{
         }
         echo json_encode($json);
     }
+    public function getMascotas(){
+        $id = $_POST['id'];
+        $data = $this->model->GetMascotas($id);
+        while ($row = mysqli_fetch_assoc($data)){
+            $json[] = array(
+                "nombre" => $row['nombre'],
+                "especie" => $row['especie'],
+                "raza" => $row['raza']
+            );
+        }
+        echo json_encode($json);
+    }
 }

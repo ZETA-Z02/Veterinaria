@@ -16,7 +16,7 @@
             <h4>Clientes Registrados</h4>
         </div>
         <div class="cell">
-            <table>
+            <table class="table-style">
                 <thead>
                     <tr>
                         <th>Nombres</th>
@@ -32,6 +32,7 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="paginador-clientes" id="paginador-clientes"></div>
         </div> 
     </div
 </div>

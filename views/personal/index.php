@@ -16,7 +16,7 @@
             <h4>Registro del Personal</h4>
         </div>
         <div class="cell">
-            <table>
+            <table class="table-style">
                 <thead>
                     <tr>
                         <th>Nombres</th>
@@ -35,6 +35,7 @@
                     </tr>
                 </tbody>
             </table>
+            <div class="paginador-personal" id="paginador-personal"></div>
         </div>
         <div class="cell text-center">
             <button class="button warning" id="btn-personal">Nuevo Personal</button>

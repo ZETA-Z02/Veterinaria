@@ -65,6 +65,7 @@ function get(){
                 `;
             });
             $("#tabla-personal").html(html);
+            initPaginador(5,"tabla-personal","paginador-personal");
         },error: function (error){
             console.log('success GET'+error);
         }
