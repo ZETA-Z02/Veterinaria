@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to left,#66e, #243b59);
+    font-family: "Work Sans";
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.box{
+    width: 30rem;
+    margin: auto;
+    margin-top: 10rem;
+    /* border: 1px solid red; */
+    /* border-radius: 20px; */
+    background: #fff;
+    box-shadow: 0 0 20px #000f;
+}
+.title{
+    text-align: center;
+    letter-spacing: 2px;
+}
+.title h1{
+    font-size: 2.5rem;
+    font-weight: 300;
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    padding: 2rem;
+    /* border: 1px solid red; */
+    width: 100%;
+    box-sizing: border-box;
+}
+.form-login{
+    width: 90%;
+}
+.box-input{
+    box-sizing: border-box;
+    margin: 20px 0;
+}
+.box-input label{
+    font-size: 1.7rem;
+}
+.box-input input{
+    width: 100%;
+    padding: 10px;
+    font-size:1.6rem;
+    border: none;
+    background: #eee;
+}
+.box-submit{
+    margin-top: 3rem;
+    text-align: center;
+}
+.box-submit button{
+    padding: 1rem;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(to right, #55a,#66f);
+    color: #fff;
+    font-weight: 700;
+    cursor: pointer;    
+}
