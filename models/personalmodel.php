@@ -45,4 +45,15 @@ class PersonalModel extends Model{
         $response = $this->conn->ConsultaSin($sql);
         return $response;
     }
+    public function Delete($id){
+        try{
+            $deletelogin = "DELETE FROM login WHERE idpersonal='$id';";
+            $sql = "DELETE FROM personal WHERE idpersonal='$id';";
+            $response = $this->conn->ConsultaSin($deletelogin);
+            $response = $this->conn->ConsultaSin($sql);
+            return $response;
+        }catch(Exception $e){
+            echo $e->getMessage();
+        }
+    }
 }

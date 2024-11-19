@@ -29,8 +29,8 @@
                 </div>
                 <div class="cell large-6 medium-12 grid-x align-spaced">
                     <button class="button warning" id="btn-update">Actualizar Datos</button>
-                    <button class="button alert" id="btn-delete">Eliminar Personal</button>
                 </div>
+                <a class="button alert" id="btn-delete" href="<?php echo constant('URL').'personal/delete/'.$this->data['idpersonal']?>">Eliminar Personal</a>
             </form>
         </div>
     </div>

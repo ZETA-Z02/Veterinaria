@@ -1,9 +1,7 @@
 <?php require 'views/header.php';?>
 <link rel="stylesheet" href="<?php constant("URL");?>public/css/dashboard.css">
 <div class="grid-container fluid">
-    <div class="grid-x align-center">
-        <h1>Dashboard</h1>
-    </div>
+
     <div class="grid-x grid-margin-x cards">
         <div class="cell large-4">
             <div class="card text-center shadow">

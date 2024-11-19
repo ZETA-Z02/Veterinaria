@@ -51,6 +51,7 @@ class Personal extends Controller{
             $this->render();
         }else{
             echo "ERROR PUT";
+            $this->render();
         }
     }
     public function updateLogin(){
@@ -64,8 +65,20 @@ class Personal extends Controller{
             $this->render();
         }else{
             echo "ERROR PUT";
+            $this->render();
         }
     }
+    public function delete($nparam=null){
+        $id = $nparam[0];
+        if($this->model->Delete($id)){
+            echo "SUCCESS DELETE";
+            $this->render();
+        }else{
+            echo "ERROR DELETE";
+            $this->render();
+        }
+    }
+
     public function dni()
     {
         // Datos
