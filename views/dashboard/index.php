@@ -6,7 +6,7 @@
         <div class="cell large-4">
             <div class="card text-center shadow">
                 <span class="card-info">
-                    <i class="fas fa-dog"></i> 23
+                    <i class="fas fa-dog"></i> <?php echo $this->data['animales'];?>
                 </span>
                 <div class="card-section">
                     <p class="lead">Animales Atentidos</p>
@@ -16,7 +16,7 @@
         <div class="cell large-4">
             <div class="card text-center shadow">
                 <span class="card-info">
-                    <i class="fas fa-cat"></i> 21
+                    <i class="fas fa-cat"></i> <?php echo $this->data['citas'];?>
                 </span>
                 <div class="card-section">
                     <p class="lead">Citas Realizadas</p>
@@ -26,7 +26,7 @@
         <div class="cell large-4">
             <div class="card text-center shadow">
                 <span class="card-info">
-                    <i class="fas fa-dove"></i> 15
+                    <i class="fas fa-dove"></i> <?php echo $this->data['clientes'];?>
                 </span>
                 <div class="card-section">
                     <p class="lead">Clientes Satisfechos</p>

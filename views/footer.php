@@ -6,16 +6,14 @@
                 <span class=""> ©
                   <script>
                     document.write(new Date().getFullYear());
-                  </script> KATARI SOFTWARE
+                  </script> Municipalidad de Puno
                 </span>
-                Copyrigth Katari. Inc.</small>
+                Copyrigtht © 2024Municipalidad de Puno. Inc.</small>
               <small class="copyright">Todos los derechos reservados.</small>
             </div>
           </div>
         </div>
         <!-- pie de pagina end -->
-
-
 <!-- Cierrre de Off-Canvas y del contenedor principal -->
     </div>
   </div>

@@ -39,7 +39,7 @@
     <div class="off-canvas position-left reveal-for-large sidebar" id="offCanvas" data-off-canvas data-transition="overload">
       <div class="grid-x margin-1 grid-margin-y">
         <div class="cell shadow img-logo">
-          <img src="<?php echo constant('URL');?>public/images/katariwhite.png" alt="placeholder">
+          <img src="<?php echo constant('URL');?>public/images/municipalidad.png" alt="placeholder">
         </div>
         <div class="cell">
           <ul class="vertical menu">

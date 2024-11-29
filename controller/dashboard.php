@@ -9,6 +9,14 @@ class Dashboard extends Controller
 
     function render()
     {
+        $animales = $this->model->GetAnimales();
+        $citas = $this->model->GetCitas();
+        $clientes = $this->model->GetClientes();
+        $this->view->data = array(
+            "animales"=>$animales['total'],
+            "citas"=>$citas['total'],
+            "clientes"=>$clientes['total'],
+        );
         $this->view->Render('dashboard/index');
     }
 
