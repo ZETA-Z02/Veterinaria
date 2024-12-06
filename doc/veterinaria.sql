@@ -376,6 +376,23 @@ INSERT INTO `personal` VALUES
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
+CREATE TABLE especies(
+	`idespecie` int primary key auto_increment,
+    `especie` varchar(20) not null    
+    );
+CREATE TABLE razas(
+	`idraza` int primary key auto_increment,
+    `idespecie` int NOT NULL,
+    `raza` varchar(20) not null,
+    FOREIGN KEY (`idespecie`) REFERENCES especies(`idespecie`)
+);
+CREATE TABLE boletas(
+	`idboleta` INT PRIMARY KEY AUTO_INCREMENT,
+    `idcliente` INT NOT NULL, 
+    `numero` INT NOT NULL,
+    `fecha` DATE NOT NULL,
+    FOREIGN KEY (`idcliente`) REFERENCES cliente(`idcliente`)
+);
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
 /*!40014 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS */;
 /*!40014 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS */;
